@@ -10,7 +10,7 @@ namespace Library
     {
         static void Main(string[] args)
         {
-            Library weeb = new Library("Kinokubiya");
+            Library weeb = new Library("Kinokuniya");
 
             var catalog = new Catalog();
 
@@ -66,7 +66,7 @@ namespace Library
             weeb.Logout(weeb.Users.First(x => x.Name == "Ken Armstrong").ID); // Log out Ken
             Console.WriteLine();
 
-            Console.ReadLine();
+            Console.ReadLine(); // So the window doesn't close!
         }
     }
 }
